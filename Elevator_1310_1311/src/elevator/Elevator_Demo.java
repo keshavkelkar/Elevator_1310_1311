@@ -13,6 +13,7 @@ public class Elevator_Demo {
 		Button b = new Button();
 		
 		System.out.println("thank you");
+		System.out.println("thank you for using software");
 		
 	}
 
