@@ -14,6 +14,7 @@ public class Elevator_Demo {
 		
 		System.out.println("thank you");
 		System.out.println("thank you for using software");
+		System.out.println("thank you for using software thanku very much");
 		
 	}
 
