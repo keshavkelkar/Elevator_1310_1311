@@ -12,6 +12,7 @@ public class Elevator_Demo {
 		Door d = new Door();
 		Button b = new Button();
 		
+		System.out.println("thank you");
 		
 	}
 
