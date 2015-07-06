@@ -1,23 +1,23 @@
 package elevator;
 
 public class Door {
-
-	String status; // either open or close
-	
+	public String doorStatus;
+    
+	//Initializing doorStatus in constructor
 	Door(){
-		this.status="close";
-	}
-	public void openDoor(){
-		System.out.println("Open Door.");
-		this.status="open";
+		doorStatus="close";
 	}
 	
-	public void closeDoor(){
-		System.out.println("Close Door.");
-		this.status="close";
-	}
-	
+	//Getting doorStatus
 	public String getDoorStatus(){
-		return this.status;
+		
+		return doorStatus;
 	}
+	
+	//Setting doorStatus
+	public void setDoorStatus(String doorStatus){
+		
+		this.doorStatus = doorStatus;
+	}
+	
 }
