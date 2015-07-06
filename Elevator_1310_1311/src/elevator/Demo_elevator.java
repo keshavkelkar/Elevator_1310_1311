@@ -12,6 +12,7 @@ public class Demo_elevator {
 		//b.serviceRequest(0,0);
 		//b.serviceRequest(1,2);
 		//b.serviceRequest(5,0);
+		System.out.println("Thanku very much !!!");
 	}
 
 }
